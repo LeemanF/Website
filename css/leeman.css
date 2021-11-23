@@ -1,0 +1,64 @@
+body {
+	background-image: url(../images/achtergrond.jpg);
+	color: #6699cc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+    	border: 3px #6699cc;
+    	border-collapse: collapse;
+    	padding: 5px;
+}
+
+p {
+	font-size: 14pt;
+	margin-left: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1 a {
+	font-size: xx-large;
+	text-decoration: none;
+}
+
+h2{
+	font-size: large;
+	margin-left: 5px;
+}
+
+a {
+	color: #6699cc;
+    	font-size: 12pt;
+}
+
+div a:hover{
+	color: #cc0066;
+}
+
+hr {
+	color: #6699cc;
+	border: 0;
+	height: 1px;
+	background-color: #6699cc;
+}
+
+main {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+div.links {
+    border: solid;
+    width: 18%;
+    padding: 5px;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+
+@media  screen and (max-width: 1250px) {
+    div.links {
+        width: 250px;
+    }
+}
